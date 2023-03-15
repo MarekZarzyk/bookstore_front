@@ -2,7 +2,7 @@
   "compilerOptions": {
     "baseUrl": ".",
     "paths": {
-      "types": ["../../fejk-store_BE/types"]
+      "types": ["../../bookstore_BE/types"]
     }
   }
 }
