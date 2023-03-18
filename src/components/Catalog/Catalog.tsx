@@ -7,19 +7,19 @@ export const Catalog = () => {
       <h3>Katalog</h3>
       <ul>
         <li>
-          <a href="/kategorie/all">Wszystkie</a>
+          <a href="/all">Wszystkie</a>
         </li>
         <li>
-          <a href="/kategorie/elektornika">Elektronika</a>
+          <a href="/category/elektronika">Elektronika</a>
         </li>
         <li>
-          <a href="/kategorie/web">Web</a>
+          <a href="/category/web">Web</a>
         </li>
         <li>
-          <a href="/kategorie/robotyka">Robotyka</a>
+          <a href="/category/robotyka">Robotyka</a>
         </li>
         <li>
-          <a href="/kategorie/informatyka">Informatyka</a>
+          <a href="/category/informatyka">Informatyka</a>
         </li>
       </ul>
     </div>

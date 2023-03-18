@@ -1,7 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { BookEntity } from "types";
 import "./BooksList.css";
-import { Card } from "../Card/Card";
+import { Card } from "../../components/Card/Card";
 
 export const BooksList = () => {
   const [bookList, setBookList] = useState<BookEntity[]>([]);
