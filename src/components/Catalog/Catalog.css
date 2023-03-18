@@ -1,0 +1,11 @@
+.catalog ul {
+  list-style: none;
+}
+
+.catalog a {
+  text-decoration: none;
+  color: #000;
+}
+.catalog a:hover {
+  color: var(--main-color);
+}

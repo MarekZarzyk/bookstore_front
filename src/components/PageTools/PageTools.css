@@ -1,0 +1,35 @@
+.page-tools {
+  display: flex;
+  justify-content: space-around;
+}
+
+.search {
+  border-bottom: 2px solid var(--main-color);
+  padding: 5px 5px 2px;
+}
+
+.search label {
+  line-height: 30px;
+  padding: 5px 10px;
+  cursor: text;
+}
+
+.search button {
+  border: 1px solid #000;
+  background: none;
+  padding: 5px;
+  cursor: pointer;
+  line-height: 20px;
+}
+
+.search input {
+  border: none;
+  margin: 0 20px;
+  padding: 5px 10px;
+  background-color: transparent;
+}
+
+.search input:focus {
+  outline: none;
+  background-color: #ddd;
+}

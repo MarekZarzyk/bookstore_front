@@ -1,0 +1,50 @@
+.book-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  max-width: 180px;
+}
+.book-card a {
+  text-decoration: none;
+  color: #000;
+  transition: 0.2s;
+}
+.book-card a .cover {
+  width: 100%;
+}
+
+.book-card a:hover {
+  box-shadow: 0 0 8px 1px var(--main-color);
+}
+
+.book-card .book-info {
+  padding: 5px;
+}
+
+.book-card .book-title {
+  font-size: 1rem;
+}
+.book-card .author {
+  font-size: 0.7rem;
+  font-weight: normal;
+}
+
+.book-card .price {
+  margin-top: 10px;
+}
+
+.book-card .availability {
+  font-size: 0.6rem;
+  text-align: center;
+}
+
+.book-card .available {
+  color: #0ec00e;
+}
+.book-card .little {
+  color: #ffa21b;
+}
+.book-card .not-available {
+  color: #ff5555;
+  font-weight: 500;
+}
