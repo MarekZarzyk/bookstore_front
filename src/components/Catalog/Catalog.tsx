@@ -1,5 +1,6 @@
 import React from "react";
 import "./Catalog.css";
+import { NavLink } from "react-router-dom";
 
 export const Catalog = () => {
   return (
@@ -7,19 +8,19 @@ export const Catalog = () => {
       <h3>Katalog</h3>
       <ul>
         <li>
-          <a href="/all">Wszystkie</a>
+          <NavLink to="/all">Wszystkie</NavLink>
         </li>
         <li>
-          <a href="/category/elektronika">Elektronika</a>
+          <NavLink to="/category/elektronika">Elektronika</NavLink>
         </li>
         <li>
-          <a href="/category/web">Web</a>
+          <NavLink to="/category/web">Web</NavLink>
         </li>
         <li>
-          <a href="/category/robotyka">Robotyka</a>
+          <NavLink to="/category/robotyka">Robotyka</NavLink>
         </li>
         <li>
-          <a href="/category/informatyka">Informatyka</a>
+          <NavLink to="/category/informatyka">Informatyka</NavLink>
         </li>
       </ul>
     </div>

@@ -6,6 +6,10 @@
   text-decoration: none;
   color: #000;
 }
-.catalog a:hover {
+.catalog a:hover,
+.catalog a.active {
   color: var(--main-color);
+}
+.catalog a.active {
+  pointer-events: none;
 }

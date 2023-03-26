@@ -16,7 +16,8 @@ export const CategoryView = () => {
       const data = await res.json();
       setBookList(data);
     })();
-  }, []);
+  }, [category]);
+
   if (!bookList) {
     return <NotFoundView />;
   }

@@ -1,4 +1,4 @@
-import React, { useEffect } from "react";
+import React from "react";
 import { BookEntity } from "types";
 import "./Card.css";
 
@@ -19,7 +19,11 @@ export const Card = (props: BookEntity) => {
   return (
     <div className="book-card">
       <a href={`/book/${id}`}>
-        <img className="cover" src={imageEndpoint} alt="Okładka książki" />
+        <img
+          className="cover"
+          src={imageEndpoint}
+          alt={`Okładka książki ${title} autorstwa ${author}`}
+        />
         <div className="book-info">
           <h3 className="book-title">{title}</h3>
           <h4 className="author">{author}</h4>

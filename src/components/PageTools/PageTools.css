@@ -4,32 +4,49 @@
 }
 
 .search {
+  position: relative;
   border-bottom: 2px solid var(--main-color);
   padding: 5px 5px 2px;
+  margin: 5px;
 }
+
+/* .search:hover {
+} */
 
 .search label {
   line-height: 30px;
   padding: 5px 10px;
   cursor: text;
 }
+.search label:hover {
+  background-color: #eee;
+}
 
-.search button {
-  border: 1px solid #000;
-  background: none;
-  padding: 5px;
+form button {
+  position: Absolute;
+  right: 0;
+  bottom: 2px;
+  display: block;
+  border: none;
+  width: 30px;
+  height: 30px;
   cursor: pointer;
   line-height: 20px;
+  background: url("../../assets/Minimal-Magnifying-Glass.svg");
+  background-size: 25px;
+  background-repeat: no-repeat;
+  background-position: 2px 3px;
+  background-color: var(--main-color);
 }
 
 .search input {
   border: none;
+  /* border-bottom: 1px solid #000; */
   margin: 0 20px;
   padding: 5px 10px;
   background-color: transparent;
 }
 
 .search input:focus {
-  outline: none;
-  background-color: #ddd;
+  outline-style: none;
 }

@@ -9,7 +9,7 @@ header {
   padding: 10px;
 }
 
-.wrapper {
+header .wrapper {
   display: flex;
   flex-direction: column;
 }
